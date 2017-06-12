@@ -56,6 +56,10 @@ public class Back_noticeDaoImpl implements Back_noticeDao {
         return 0;
     }
     //查
+    public int Update(Back_notice a,Back_notice aa) {
+        return 0;
+    }
+    //查
     @Override
     public List<Back_notice> Select(Back_notice a,int c,int d) {
         String sql="select * from notice limit ?,?";
