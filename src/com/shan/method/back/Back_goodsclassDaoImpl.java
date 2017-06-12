@@ -11,7 +11,6 @@ public class Back_goodsclassDaoImpl implements Back_goodsclassDao {
     Jdbc jdbc=new Jdbc();
     private PreparedStatement pst;
     private String sql;
-
     //增
     @Override
     public int Add(Back_goodsclass a) {
