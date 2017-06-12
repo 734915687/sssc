@@ -1,0 +1,56 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+ul{list-style: none;}
+
+.focusBox { position: relative; width: 1201px; height: 380px; overflow: hidden; margin: 0 auto; }
+.focusBox .pic { position: relative; z-index: 0; }
+.focusBox .pic img { width: 1201px; height: 380px; display: block; }
+.focusBox .hd { width: 100%; position: absolute; bottom: 10px; text-align: center; font-size: 0; z-index: 1; }
+.focusBox .hd li { margin: 0 2px; background: url(dot1.png) no-repeat 0 0; height: 16px; overflow: hidden; width: 16px; cursor: pointer; display: inline-block; *display:inline;
+    zoom: 1; _background: url(dot1.png) no-repeat 0 0; }
+.focusBox .hd .on { background-position: 0 -30px; }
+.focusBox .prev, .focusBox .next { z-index: 9; position: absolute; display: block; width: 100px; height: 280px; top: 50px }
+.focusBox .prev { left: 0; background: url(tprev.png) 0 center no-repeat }
+.focusBox .next { right: 0; background: url(tnext.png) 100% center no-repeat }
+.focusBox .prev:hover, .focusBox .next:hover { filter: alpha(opacity=90) !important; opacity: 0.9 !important; }
+.top{
+    width: 1351px;
+    height: 150px;
+    float: left;
+}
+.top_top{
+    width: 1351px;
+    height: 33px;
+    float: left;
+    background-color: #f7f7f7;
+    line-height:33px;
+    text-align:center;
+    font-size: 12px;
+}
+#one>li{
+    width: 80px;
+    height: 40px;
+    margin: 2px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.two{
+    width: 80px;
+    height: 160px;
+    background: #666;
+    display: none;
+}
+.body{
+    width: 1351px;
+    height: 2500px;
+    background-color: gold;
+}
+.fotter{
+    width: 1351px;
+    height: 480px;
+    background-color: #9F0306;
+}

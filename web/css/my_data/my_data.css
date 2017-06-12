@@ -1,0 +1,43 @@
+.top{
+    width: 1351px;
+    height: 200px;
+    float: left;
+    background-color: #7030A0;
+}
+.top_top{
+    width: 1351px;
+    height: 33px;
+    float: left;
+    background-color: #f7f7f7;
+}
+
+.body{
+    width: 1351px;
+    height: 950px;
+    float: left;
+    background-color: darkorange;
+}
+.body_left{
+    width: 200px;
+    height: 400px;
+    float: left;
+    background-color: #66F4DF;
+}
+.body_right{
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-color: tomato;
+}
+.show_pic{
+    float: right;
+    margin-top: -250px;
+    margin-right: 200px
+
+}
+.fotter{
+    width: 1351px;
+    height: 480px;
+    background-color: #7030A0;
+    float: left;
+}
